@@ -28,14 +28,14 @@ Follow these steps to build and run the Docker container for this blog platform:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/my-blog-app.git
-   cd my-blog-app
+   git clone https://github.com/DanielBundor/dockerRepo.git
+   cd dockerRepo 
 
 2. Build the Docker container:
-   docker build -t my-blog-app .
+   docker build -t dockerRepo .
 
 3. Run the Docker container:
 
-   docker run -d -p 8080:80 --name my-blog-app my-blog-app
+   docker run -d -p 8080:80 --name dockerRepo dockerRepo
 
 4. Access the blog platform in your web browser at http://localhost:8080
