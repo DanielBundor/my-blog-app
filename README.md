@@ -7,10 +7,6 @@ Welcome to My Blog App, a Dockerized blog platform that allows you to create and
 1. [Features](#features)
 2. [Prerequisites](#prerequisites)
 3. [Getting Started](#getting-started)
-4. [Docker Commands](#docker-commands)
-5. [Docker Compose](#docker-compose)
-6. [Customization](#customization)
-7. [License](#license)
 
 ## Features
 
