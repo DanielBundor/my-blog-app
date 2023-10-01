@@ -1,7 +1,10 @@
+# docker-compose.yml for My Blog App
+
 version: '3'
 services:
-  app:
+  web:
     build: .
     ports:
-      - "3000:3000"
-    working_dir: /app
+      - "8080:80"
+    container_name: my-blog-app
+

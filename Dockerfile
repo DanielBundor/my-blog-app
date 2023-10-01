@@ -1,8 +1,14 @@
-FROM ubuntu:20.04
-EXPOSE 3000
-RUN apt update
-RUN apt install python3-pip -y
-WORKDIR /app
-COPY . .
-RUN pip3 install -r requirements.txt
-CMD ["python3", "app.py"] 
+# Dockerfile for My Blog App
+
+# Use a base image (e.g., a lightweight Linux distribution)
+FROM nginx:alpine
+
+# Copy application files to the container
+COPY app/ /usr/share/nginx/html/
+
+# Expose the port the application will run on (default for Nginx)
+EXPOSE 80
+
+# Define the command to start the container
+CMD ["nginx", "-g", "daemon off;"]
+
