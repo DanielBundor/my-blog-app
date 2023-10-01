@@ -1,7 +1,7 @@
 ---
 title: "My First Blog Post"
 date: "September 30, 2023"
-author: "Daniel Bundor
+author: "Daniel Bundor"
 ---
 
 # Introduction
