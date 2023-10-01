@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # My Blog App - Dockerized Blog Platform
 
 Welcome to My Blog App, a Dockerized blog platform that allows you to create and view blog posts. This README provides detailed instructions for setting up and using the application.
@@ -44,9 +43,3 @@ Follow these steps to build and run the Docker container for this blog platform:
    docker run -d -p 8080:80 --name my-blog-app my-blog-app
 
 4. Access the blog platform in your web browser at http://localhost:8080
-=======
-# dockerRepo
-
-## Please read my INTRO.md file as it contains some useful information regarding my dockerRepo.
-## I will continue to update this READ.md on an eventual basis. Thank you.  
->>>>>>> origin/main
