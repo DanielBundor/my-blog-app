@@ -9,5 +9,3 @@ my-blog-app/
 |       |-- post1.md
 |       |-- post2.md
 |-- README.md
-|-- LICENSE
-
